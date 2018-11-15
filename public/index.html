@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Forum|Fredericka+the+Great" rel="stylesheet">
+  <link rel="stylesheet" href="styles/journal.css">
+  <title>Daily Journal</title>
+</head>
+
+<body>
+  <h1>Daily Journal</h1>
+  <form action=" ">
+    <fieldset class="form">
+      <label for="journalDate">Date of Entry</label>
+      <input type="date" name="journalDate" id="journalDate" required>
+    </fieldset>
+    <fieldset class="form">
+      <label for="concepts">Concepts Covered</label>
+      <input type="text" name="concepts" id="concepts" required maxlength="15">
+    </fieldset>
+    <fieldset class="form">
+      <label for="journalEntry">Journal Entry</label>
+      <textarea name="journalEntry" cols="25" rows="3" id="journalEntry" required maxlength="100"></textarea>
+    </fieldset>
+    <fieldset class="form">
+      <label for="mood">I'm Feeling...</label>
+      <select id="moodChoices">
+        <option value="select">--Select--</option>
+        <option value="proud">Proud</option>
+        <option value="productive">Productive</option>
+        <option value="elated">Elated</option>
+        <option value="content">Content</option>
+        <option value="confused">Confused</option>
+        <option value="frustrated">Frustrated</option>
+        <option value="anxious">Anxious</option>
+        <option value="sad">Sad</option>
+        <option value="stressed">Stressed</option>
+        <option value="angry">Angry</option>
+      </select>
+    </fieldset>
+    <button type="submit" name="submit" value="submit" id="submit">Record Journal Entry</button>
+  </form>
+  <h3>Filter Entries by Mood</h3>
+  <fieldset class="">
+    <div class="filter">
+      <div>
+        <input type="radio" name="moodFilter" value="proud" id="proud">
+        <label for="proud">Proud</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="productive" id="productive">
+        <label for="productive">Productive</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="elated" id="elated">
+        <label for="elated">Elated</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="content" id="content">
+        <label for="content">Content</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="confused" id="confused">
+        <label for="confused">Confused</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="frustrated" id="frustrated">
+        <label for="frustrated">Frustrated</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="anxious" id="anxious">
+        <label for="anxious">Anxious</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="sad" id="sad">
+        <label for="sad">Sad</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="stressed" id="stressed">
+        <label for="stressed">Stressed</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="angry" id="angry">
+        <label for="angry">Angry</label>
+      </div>
+      <div>
+        <input type="radio" name="moodFilter" value="all" id="all" checked>
+        <label for="all">VIEW ALL ENTRIES</label>
+      </div>
+    </div>
+  </fieldset>
+  <article class="journal">
+
+
+  </article>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+  <script src="dailyjournal.js"></script>
+</body>
+
+</html>

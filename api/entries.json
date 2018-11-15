@@ -1,0 +1,60 @@
+{
+  "entries": [
+    {
+      "id": 1,
+      "date": "2018-10-17",
+      "concepts": "APIs and JSON",
+      "entry": "Head spinning from empty promises and thenables",
+      "mood": "frustrated"
+    },
+    {
+      "id": 2,
+      "date": "2018-10-19",
+      "concepts": "Promise methods",
+      "entry": "Learned about Promise.all()-- made some sense. Solo work the rest of the day",
+      "mood": "productive"
+    },
+    {
+      "date": "2018-11-06",
+      "concepts": "Selfstudy",
+      "entry": "Worked on Book 4 Ch. 13 and journal 6",
+      "mood": "stressed",
+      "id": 3
+    },
+    {
+      "date": "2018-11-16",
+      "concepts": "stuff",
+      "entry": "test",
+      "mood": "elated",
+      "id": 4
+    },
+    {
+      "date": "2018-11-13",
+      "concepts": "test",
+      "entry": "test",
+      "mood": "productive",
+      "id": 5
+    },
+    {
+      "date": "2018-11-15",
+      "concepts": "test",
+      "entry": "test",
+      "mood": "productive",
+      "id": 6
+    },
+    {
+      "date": "2018-11-13",
+      "concepts": " wahoooo",
+      "entry": "asdkf;alksdhf ",
+      "mood": "sad",
+      "id": 7
+    },
+    {
+      "date": "2018-11-14",
+      "concepts": "test",
+      "entry": "test",
+      "mood": "productive",
+      "id": 8
+    }
+  ]
+}
